@@ -7,7 +7,6 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.config import Config
 
 
-
 class CalcGridLayout(GridLayout):
 
     def calculate(self, calculation):
@@ -25,4 +24,5 @@ class CalculatorApp(App):
 
 
 calcApp =CalculatorApp()
+
 calcApp.run()
